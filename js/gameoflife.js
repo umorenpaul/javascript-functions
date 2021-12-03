@@ -32,7 +32,7 @@ const corners = (state = []) => {
   const ys = state.map(([_,y])=>y);
    return {
     topRight:[Math.max(...xs),Math.max(...ys)],
-    bottomLeft:[Math.min(...xy), Math.min(...ys)]
+    bottomLeft:[Math.min(...ys), Math.min(...ys)]
    }
 };
 
