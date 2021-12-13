@@ -2,7 +2,6 @@
 function seed() {
  return Array.prototype.slice.call(arguments);
 
-
 }
 
 
